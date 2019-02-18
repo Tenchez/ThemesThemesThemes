@@ -8,6 +8,7 @@ Branches:
 
 ThemeVersion/
 
-    ThreeColorTheme: branch with finished implementation of installing Angular Materials and setting Primary, Accent, Warn colors
+    BaseAngulartheme: branch with base project and installation of Angular Material
+    ThreeColorTheme: branch with finished setting of Primary, Accent, Warn colors
     MapsToFunctions: branch with finished implementation of ripping out the angular maps and using theme within our own custom themes
     CustomComponentTheming: branch with finished implementation of adding theming to custom components as well as adding more colors
