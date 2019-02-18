@@ -1,0 +1,7 @@
+@import '~@angular/material/theming';
+
+// Custom Themes
+@import './themes/light-theme.scss';
+@import './themes/dark-theme.scss';
+
+@include angular-material-theme($light-theme);
