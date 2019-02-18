@@ -4,4 +4,4 @@
 @import './themes/light-theme.scss';
 @import './themes/dark-theme.scss';
 
-@include angular-material-theme($light-theme);
+@include angular-material-theme($my-light-app-theme-custom);
