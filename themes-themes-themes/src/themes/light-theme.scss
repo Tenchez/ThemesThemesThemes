@@ -6,6 +6,11 @@ $warn: mat-palette($mat-red);
 
 $light-theme: mat-light-theme($primary, $accent, $warn);
 
+
+$light-color-map: (
+    clicked-button: map-get($mat-green, 200)
+);
+
 // Background palette for light themes.
 @function custom-mat-light-theme-background() {
     @return (

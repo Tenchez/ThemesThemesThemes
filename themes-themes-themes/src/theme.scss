@@ -3,5 +3,12 @@
 // Custom Themes
 @import './themes/light-theme.scss';
 @import './themes/dark-theme.scss';
+@import './shared/non-material/non-material.component.theme.scss';
+
+@mixin custom-component-theme($my-light-app-theme-custom, $light-color-map) {
+    @include non-material-theme($my-light-app-theme-custom, $light-color-map);
+}
 
 @include angular-material-theme($my-light-app-theme-custom);
+@include custom-component-theme($my-light-app-theme-custom, $light-color-map);
+

@@ -1,0 +1,20 @@
+@import '~@angular/material/theming';
+
+@mixin non-material-theme($theme, $color-map) {
+    $primary: map-get($theme, primary);
+    $accent-map: map-get($theme, accent);
+    $foreground: map-get($theme, foreground);
+    $background: map-get($theme, background);
+
+    $accent: mat-color($accent-map);
+
+    app-non-material {
+        button {
+            background: map-get($primary, 500);
+            color: $accent;
+        }
+        button:hover {
+            background: map-get($color-map, clicked-button);
+        }
+    }
+}
